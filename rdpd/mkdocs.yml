@@ -1,6 +1,6 @@
 site_name: Rich Dad Poor Dad
-pages:
+nav:
     - Dad is the first hero : index.md
     - Getting Started : getting_started.md
 theme:
-  name: 'material'
+  name: readthedocs
