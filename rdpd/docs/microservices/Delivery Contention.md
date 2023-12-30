@@ -19,3 +19,22 @@ Addressing delivery contention involves establishing
 - effective communication channels
 - strategies to coordinate and integrate changes seamlessly
  It becomes particularly crucial in environments with complex systems or large development teams to ensure smooth and efficient software delivery.
+
+In monolithic architectures:
+
+**Single-Process Monolith:** Contention can arise when multiple developers or teams work on different parts of the monolith concurrently, leading to conflicts during integration or deployment.
+
+**Modular Monolith:** Despite having separate modules, contention might occur during the combination of these modules for deployment. If modules have interdependencies or if changes in one module affect others, coordination challenges can emerge.
+
+**Distributed Monolith:** Here, the challenges are compounded by the distributed nature of the system. Changes in one service may have unintended consequences on other services, and coordinating the deployment of the entire system can be complex.
+
+**In microservices or distributed architectures:**
+
+Microservices: While microservices aim to address some challenges of monoliths, they introduce their own set of complexities. **Each microservice may have its development cycle, and coordinating changes across multiple services can lead to contention.**
+
+Distributed Systems: Any distributed system, regardless of architecture, may face contention due to the inherent challenges of managing communication, consistency, and dependencies among distributed components.
+
+**Example Scenario in Microservices:**
+Consider a microservices architecture where teams independently develop and deploy services. Contention can arise if two teams modify their services in a way that affects the communication protocol between them. Coordinating the deployment of these changes without disrupting the entire system requires careful planning.
+
+In summary, delivery contention is a broader challenge in software development that can manifest in different architectural styles. **Effective collaboration, communication, and coordination practices are essential to mitigate contention, regardless of the chosen architecture.**
