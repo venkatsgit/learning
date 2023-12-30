@@ -38,3 +38,14 @@ Distributed Systems: Any distributed system, regardless of architecture, may fac
 Consider a microservices architecture where teams independently develop and deploy services. Contention can arise if two teams modify their services in a way that affects the communication protocol between them. Coordinating the deployment of these changes without disrupting the entire system requires careful planning.
 
 In summary, delivery contention is a broader challenge in software development that can manifest in different architectural styles. **Effective collaboration, communication, and coordination practices are essential to mitigate contention, regardless of the chosen architecture.**
+
+
+**Establish a clear code ownership model:** For example, you could assign different teams to work on different parts of the codebase. This will help ensure that each team is responsible for their code and reduce the likelihood of conflicts.
+
+**Use version control:** For example, you could use Git to manage code changes. This will help track changes made by different teams and resolve conflicts more easily. You can also use tools like GitHub or Bitbucket to manage code repositories.
+
+**Implement continuous integration and delivery:** For example, you could use a tool like Jenkins to automate the process of building, testing, and deploying code changes. This can help reduce the time it takes to deliver software and minimize the risk of conflicts.
+
+**Break down the codebase into smaller modules:** For example, you could break down the codebase into smaller modules that are easier to manage. This can help reduce the likelihood of delivery contention because changes made by one team are less likely to affect other teams.
+
+**Establish clear coding standards:** For example, you could establish coding standards that all teams must follow when making changes to the codebase. This can help ensure that all teams are following the same guidelines and reduce the likelihood of conflicts caused by differences in coding styles.
