@@ -1,6 +1,7 @@
 ```mermaid
 graph TD
     subgraph "E-commerce Operations"
+   
         Marketing[Marketing Team]
         Inventory[Inventory Team]
         Sales[Sales Team]
